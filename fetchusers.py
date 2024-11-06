@@ -5,7 +5,7 @@ import pandas as pd
 GITHUB_API_URL = "https://api.github.com"
 CITY = "Beijing"
 MIN_FOLLOWERS = 500
-
+#Used Github API Token
 headers = {
     "Authorization": f"token {TOKEN}",
     "Accept": "application/vnd.github.v3+json"
